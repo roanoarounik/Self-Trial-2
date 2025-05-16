@@ -138,6 +138,18 @@ p {
     color: white;
     background: var(--mainCool);
 }
+.footBox:hover .iconContainer {
+    background: white;
+}
+.footBox:hover i {
+    color: var(--mainCool);
+}
+.footBox:hover hr {
+    border-color: white;
+}
+.footBox:hover p {
+    color: white;
+}
 
 .footBox p {
     color: gray;
@@ -154,6 +166,14 @@ h3 {
 
 .redBox {
     background: rgb(255 0 0 / 20%);
+}
+
+.checkBox {
+    background: rgb(42 189 42 / 20%);
+}
+
+.cardBox {
+    background: rgb(35 166 240 / 20%);
 }
 
 .iconContainer {
@@ -173,11 +193,27 @@ i {
     color: red;
 }
 
+.checkIcon {
+    color: rgb(42 189 42);
+}
+
+.cardIcon {
+    color: var(--mainCool);
+}
+
 hr {
     max-width: 50px;
     margin: 0 auto 0 0;
     border-color: red;
     border-style: solid;
+}
+
+.footerBox2 hr {
+    border-color: rgb(42 189 42);
+}
+
+.footerBox3 hr {
+    border-color: var(--mainCool);
 }
 
 .footerSection {
