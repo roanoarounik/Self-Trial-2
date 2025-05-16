@@ -79,7 +79,7 @@ svg path {
 h1 {
     display: flex;
     font-size: smaller;
-    padding-top: 115px;
+    padding-top: 35px;
     padding-bottom: 50px;
     justify-content: center;
     color: var(--mainCool);
@@ -125,16 +125,59 @@ p {
 }
 
 .footBox {
-    width: 250px;
-    height: 250px;
+    width: 245px;
+    height: 185px;
     color: black;
     cursor: pointer;
     background: white;
     transition: var(--transition);
+    border-radius: 1px;
+    padding: 40px;
 }
 .footBox:hover {
     color: white;
     background: var(--mainCool);
+}
+
+.footBox p {
+    color: gray;
+    font-size: 11px;
+    font-weight: 600;
+    margin: 24px 0;
+    text-align: left;
+}
+
+h3 {
+    font-size: 14px;
+    margin: 17px 0;
+}
+
+.redBox {
+    background: rgb(255 0 0 / 20%);
+}
+
+.iconContainer {
+    height: 62px;
+    width: 60px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+i {
+    font-size: 25px;
+}
+
+.kumonIcon {
+    color: red;
+}
+
+hr {
+    max-width: 50px;
+    margin: 0 auto 0 0;
+    border-color: red;
+    border-style: solid;
 }
 
 .footerSection {
