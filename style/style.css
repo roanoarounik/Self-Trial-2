@@ -5,6 +5,11 @@
     --mainCool: rgb(35, 166, 240);
 }
 
+:root {
+    --transition: 150ms ease-in-out;
+    --mainCool: rgb(35, 166, 240);
+}
+
 
 body  {
     background: rgb(37 43 66);
@@ -55,14 +60,31 @@ button {
     display: flex;
     color: white;
     cursor: pointer;
+    color: white;
+    cursor: pointer;
     font-size: smaller;
     border-radius: 4px;
     align-items: center;
     font-family: 'Montserrat';
+    font-family: 'Montserrat';
     text-transform: uppercase;
     background: var(--mainCool);
     transition: var(--transition);
+    background: var(--mainCool);
+    transition: var(--transition);
     justify-content: space-evenly;
+}
+button:hover {
+    border: none;
+    color: black;
+    background: white;
+}
+button:hover svg path {
+    fill: black;
+}
+
+svg path {
+    transition: var(--transition);
 }
 button:hover {
     border: none;
@@ -82,7 +104,11 @@ h1 {
     font-size: smaller;
     padding-top: 35px;
     padding-bottom: 50px;
+    font-size: smaller;
+    padding-top: 35px;
+    padding-bottom: 50px;
     justify-content: center;
+    color: var(--mainCool);
     color: var(--mainCool);
 }
 
@@ -111,17 +137,47 @@ p {
 .section2 {
     display: flex;
     grid-gap: 8px;
+    grid-gap: 8px;
     justify-content: center;
 }
 
 .mainButton {
+    min-width: 140px;
     min-width: 140px;
     text-transform: none;
 }
 
 .outlineButton {
     color: white;
+    color: white;
     background: transparent;
+    border: 1px var(--mainCool) solid;
+}
+
+.footBox {
+    width: 245px;
+    height: 185px;
+    color: black;
+    cursor: pointer;
+    background: white;
+    transition: var(--transition);
+    border-radius: 1px;
+    padding: 40px;
+}
+.footBox:hover {
+    color: white;
+    background: var(--mainCool);
+}
+.footBox:hover .iconContainer {
+    background: white;
+}
+.footBox:hover i {
+    color: var(--mainCool);
+}
+.footBox:hover hr {
+    border-color: white;
+}
+.footBox:hover p {
     border: 1px var(--mainCool) solid;
 }
 
@@ -231,6 +287,79 @@ hr {
     margin-top: 27px;
     letter-spacing: 2.5px;
     grid-gap: 20px;
+}
+
+/* Deprecated */
+.footBox p {
+    color: gray;
+    font-size: 11px;
+    font-weight: 600;
+    margin: 24px 0;
+    text-align: left;
+}
+
+h3 {
+    font-size: 14px;
+    margin: 17px 0;
+}
+
+.redBox {
+    background: rgb(255 0 0 / 20%);
+}
+
+.checkBox {
+    background: rgb(42 189 42 / 20%);
+}
+
+.cardBox {
+    background: rgb(35 166 240 / 20%);
+}
+
+.iconContainer {
+    height: 62px;
+    width: 60px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+i {
+    font-size: 25px;
+}
+
+.kumonIcon {
+    color: red;
+}
+
+.checkIcon {
+    color: rgb(42 189 42);
+}
+
+.cardIcon {
+    color: var(--mainCool);
+}
+
+hr {
+    max-width: 50px;
+    margin: 0 auto 0 0;
+    border-color: red;
+    border-style: solid;
+}
+
+.footerBox2 hr {
+    border-color: rgb(42 189 42);
+}
+
+.footerBox3 hr {
+    border-color: var(--mainCool);
+}
+
+.footerSection {
+    display: flex;
+    grid-gap: 25px;
+    padding-top: 75px;
+    justify-content: center;
 }
 
 /* Deprecated */
