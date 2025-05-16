@@ -1,0 +1,1 @@
+let yearElement = document.querySelector('.yearElement').textContent = new Date().getFullYear();
