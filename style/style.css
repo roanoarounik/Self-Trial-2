@@ -105,3 +105,41 @@ p {
     border: 1px rgb(35 166 240) solid;
     color: white;
 }
+
+/* .footBox {
+    height: 250px;
+    width: 250px;
+    background: white;
+}
+
+.footerSection {
+    display: flex;
+    justify-content: center;
+    grid-gap: 25px;
+    padding-top: 75px;
+}
+
+.footBox:hover {
+  background-color: rgb(35 166 240);
+  color: white;
+} */
+
+.footBox {
+    height: 250px;
+    width: 250px;
+    background: white;
+    color: black; /* set default text color */
+    transition: background-color 250ms ease, color 250ms ease;
+}
+
+.footerSection {
+    display: flex;
+    justify-content: center;
+    grid-gap: 25px;
+    padding-top: 75px;
+}
+
+.footBox:hover {
+    background-color: rgb(35, 166, 240);
+    color: white;
+}
