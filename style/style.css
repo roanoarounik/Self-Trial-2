@@ -273,10 +273,10 @@ hr {
     border-color: var(--mainCool);
 }
 
-.footerSection {
+.cardsSection {
     display: flex;
     grid-gap: 25px;
-    padding-top: 75px;
+    padding: 50px 0;
     justify-content: center;
 }
 
@@ -284,18 +284,17 @@ hr {
     color: white;
     display: flex;
     justify-content: center;
-    margin-top: 27px;
     letter-spacing: 2.5px;
     grid-gap: 20px;
 }
 
-/* Deprecated */
 .footBox p {
     color: gray;
     font-size: 11px;
     font-weight: 600;
     margin: 24px 0;
     text-align: left;
+    border: none !important;
 }
 
 h3 {
@@ -354,29 +353,3 @@ hr {
 .footerBox3 hr {
     border-color: var(--mainCool);
 }
-
-.footerSection {
-    display: flex;
-    grid-gap: 25px;
-    padding-top: 75px;
-    justify-content: center;
-}
-
-/* Deprecated */
-/* .footBox {
-    height: 250px;
-    width: 250px;
-    background: white;
-}
-
-.footerSection {
-    display: flex;
-    justify-content: center;
-    grid-gap: 25px;
-    padding-top: 75px;
-}
-
-.footBox:hover {
-  background-color: rgb(35 166 240);
-  color: white;
-} */
